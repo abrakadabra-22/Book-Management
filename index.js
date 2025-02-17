@@ -7,8 +7,6 @@ const port = 3000;
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
 
-
-
 // Sample in-memory database
 let books = [
   { id: 1, title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' },
