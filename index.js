@@ -14,6 +14,8 @@ let books = [
   { id: 3, title: 'To Kill a Mockingbird', author: 'Harper Lee' },
 ];
 
+
+
 // Get all books
 app.get('/api/books', (req, res) => {
   res.status(200).json(books);
