@@ -19,6 +19,10 @@ app.get('/api/books', (req, res) => {
   res.status(200).json(books);
 });
 
+
+
+
+
 // Get a single book by ID
 app.get('/api/books/:id', (req, res) => {
   const book = books.find((b) => b.id === parseInt(req.params.id));
